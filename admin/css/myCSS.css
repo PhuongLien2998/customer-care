@@ -1,0 +1,70 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+/* html{
+	overflow-x:hidden;
+} */
+.err{
+	color: red;
+	padding-left: 10px;
+}
+
+a.help:hover{
+	text-decoration: none;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	/*position: fixed;*/
+}
+
+.content{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.content a{
+	color:green;
+}
+
+.content a:hover{
+	text-decoration: none;
+	color: aqua;
+}
+
+#sale,#shopping{
+	width: 50%;
+	min-height:100px;
+}
+
+.size{
+	min-height: 500px;
+}
+
+.nav-tabs {
+	border-bottom: 1px solid #130a0a;
+	background: #86cc29;
+}
+.nav-tabs a{
+	color:#fff;
+}
+
+.nav-tabs a:hover{
+	color:violet;
+}
+
+.active a{
+	background: red;
+	color: red;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #fff;
+    background-color: green;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}

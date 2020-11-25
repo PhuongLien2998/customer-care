@@ -1,0 +1,22 @@
+.number_info {
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-top: -14%;
+}
+
+.container {
+    min-height: 580px;
+}
+.add-process{
+    margin-top: 5px ;
+    margin-bottom: 15px ;
+    margin-left: 20% ;
+}
+.error{
+    color: red ;
+}
+@media only screen and (max-width: 576px) {
+    .number_info {
+        margin-top: 0px ;
+    }
+}

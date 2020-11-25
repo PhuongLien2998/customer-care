@@ -1,0 +1,20 @@
+a{
+	text-align:  center; 
+}
+.container{
+	background-color: #E9EBEE ;
+}
+table{
+	text-align: center;
+}
+body {
+	overflow-x:hidden;
+}
+.alert_noti{
+	width: 25% ;
+	position: absolute;
+	top: 10%;
+	right: 0px;
+	z-index: 9999;
+}
+
